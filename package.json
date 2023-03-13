@@ -1,0 +1,22 @@
+{
+  "name": "food_site",
+  "version": "1.0.0",
+  "description": "this is where are developing our food site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewj1561/feejeatsfood.git"
+  },
+  "keywords": [
+    "sushi"
+  ],
+  "author": "fischer jarom matthew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthewj1561/feejeatsfood/issues"
+  },
+  "homepage": "https://github.com/matthewj1561/feejeatsfood#readme"
+}
