@@ -4,6 +4,7 @@
   "description": "this is where are developing our food site",
   "main": "index.js",
   "scripts": {
+    "start": "snowpack dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/matthewj1561/feejeatsfood/issues"
   },
-  "homepage": "https://github.com/matthewj1561/feejeatsfood#readme"
+  "homepage": "https://github.com/matthewj1561/feejeatsfood#readme",
+  "dependencies": {
+    "snowpack": "^3.8.8"
+  }
 }
