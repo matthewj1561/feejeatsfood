@@ -2,7 +2,8 @@ const headerTemplate = document.createElement('template');
 headerTemplate.innerHTML = `
     <style>
         nav{
-            height: 100%
+            height: 100%;
+            width: inherit;
         }
         ul {
             padding: 0;
@@ -17,20 +18,31 @@ headerTemplate.innerHTML = `
         a {
             color: white;
             text-decoration: none;
+            font-size: 20px;
+        }
+        a:hover {
+            color: var(--light-accent);
         }
         #header {
             margin:0;
             width: 100%;
             background-color: var(--dark);
             height: 100px;
+            display: flex;
+        }
+        img {
+            width: 125px;
         }
     </style>
     <header id="header">
+        <a href="#">
+            <img src="../images/logo.png" alt="Site Logo" />
+        </a>
         <nav>
             <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Food Blog</a></li>
+                <li><a href="#">Map</a></li>
+                <li><a href="#">The Authors</a></li>
             </ul>
         </nav>
     </header>`;
