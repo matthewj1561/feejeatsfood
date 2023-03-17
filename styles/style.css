@@ -21,3 +21,14 @@ main {
     width: 500px;
     transform: rotate(45deg);
 }
+
+.hero {
+    height: 800px;
+    display: block;
+}
+
+.block1,
+.block2 {
+    opacity: 0;
+    transition: all 2s ease;
+}
