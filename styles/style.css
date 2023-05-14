@@ -27,8 +27,7 @@ main {
     display: block;
 }
 
-.block1,
-.block2 {
+.block {
     opacity: 0;
     transition: all 2s ease;
     transform: translateX(-100vw)
@@ -102,3 +101,23 @@ main {
         'card4 card5 card5'
         'card4 card5 card5';
 }
+
+.heading {
+    font-size: 70px;
+    color: rgb(5, 5, 5);
+}
+
+#landing-hero{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    margin: -10px;
+}
+#block1{ 
+    height: 500px;
+}
+
+@keyframes example {
+    from {transform: auto;}
+    to {top: 0;}
+  }

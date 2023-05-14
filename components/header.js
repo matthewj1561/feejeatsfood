@@ -35,14 +35,14 @@ headerTemplate.innerHTML = `
         }
     </style>
     <header id="header">
-        <a href="#">
-            <img src="../images/logo.png" alt="Site Logo" />
+        <a href="/">
+            <img src="../../images/logo.png" alt="Site Logo" />
         </a>
         <nav>
             <ul>
-                <li><a href="#">Food Blog</a></li>
-                <li><a href="#">Map</a></li>
-                <li><a href="#">The Authors</a></li>
+                <li><a href="/pages/blog/">Food Blog</a></li>
+                <li><a href="/pages/map/">Map</a></li>
+                <li><a href="/pages/authors/">The Authors</a></li>
             </ul>
         </nav>
     </header>`;
